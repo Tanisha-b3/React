@@ -1,0 +1,28 @@
+their are two types of package
+-D 
+dev dependency : It requirement in development a app
+normal dependency : it require at the time of production 
+parcel as dev dependency 
+npm:-package manager
+our app is installing parcel package by 
+npm install -D parcel
+parcel:- it will give it strength to the app
+"parcel": "^2.11.0" : What is ^ caret :- it will automatically update the version of dev dependency
+what is ~ :- it will install the major version  
+what is difference between package lock jason 
+what is package json:- it is configuration of npm it will track of the version
+and it will ^ and ~;
+package lock jason take exact the version of package or dependency
+what are other things 
+what are node modules
+it containa all the code from npm
+our project has parcel and parcel as project as its own dependency and that dependency have own dependency 
+known as transitive dependency.
+parcel uses all the dependency 
+everyone have package json
+we can generate node modules from package. json
+and package-lock.json
+npx parcel index.html to add it to local server Server running at http://localhost:1234
+mpm : package
+npx will execute
+cdn is not good way to create react
