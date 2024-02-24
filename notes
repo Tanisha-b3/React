@@ -26,3 +26,5 @@ npx parcel index.html to add it to local server Server running at http://localho
 mpm : package
 npx will execute
 cdn is not good way to create react
+
+Episode 2
