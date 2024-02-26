@@ -1,6 +1,87 @@
-#heading{
-    color: red;
+/* Additional CSS styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
-#title{
-    color: blue;
+
+.nav-items > ul {
+    list-style-type: none;
+    display: flex;
+    padding-right: 100px;
+}
+
+.nav-items > ul > li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px;
+    color: #000;
+
+}
+
+.restaurant-list {
+    display: flex;
+}
+
+.card {
+    border: 5px solid black;
+    margin: 10px;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Example color */
+}
+
+.nav-items > ul > li {
+    color: #555; /* Example color */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.card img{
+    margin:20px ;
+    width: auto;
+    height: 200px;
+}
+
+
+.nav-items > ul > li:hover {
+    color: #000; /* Example color */
+}
+
+.restaurant-list {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px; /* Example width */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Example background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card h5 {
+    font-size: 16px;
+    color: #888; /* Example color */
+    margin-bottom: 10px;
+}
+.img-k{
+    width:100px;
+    height: 100px;
+}
+
+.card h4 {
+    font-size: 18px;
+    color: #333; /* Example color */
+    margin-bottom: 10px;
 }

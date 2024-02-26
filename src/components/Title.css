@@ -1,0 +1,11 @@
+.img-k img{
+width:auto;
+height: 80px;
+margin: 10px;
+}
+.img-k{
+    display: flex;
+}
+.img-k h3{
+   margin-top: 40px;
+}

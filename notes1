@@ -56,3 +56,16 @@ const root = ReactDOM.createRoot(
     document.getElementById("root"));
     root.render(<HeaderComponent />);
 */
+//functional component is normal component
+// Config driven Ui:- This for the dynamic application
+/*const config=[{
+type:"carosel",
+cards:[
+  {
+    offerName:"50% off"
+  },{
+    offerName:"No delivery Charges",
+  }
+]
+}  ],*/
+//... is a spread operator
