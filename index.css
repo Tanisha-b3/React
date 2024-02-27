@@ -44,7 +44,7 @@
 .card img{
     margin:20px ;
     width: auto;
-    height: 200px;
+    height: 170px;
 }
 
 
@@ -58,6 +58,8 @@
 }
 
 .card {
+    margin-top:20px ;
+    margin: 10px;
     width: 300px; /* Example width */
     padding: 20px;
     border-radius: 10px;
@@ -84,4 +86,7 @@
     font-size: 18px;
     color: #333; /* Example color */
     margin-bottom: 10px;
+}
+.search-container{
+    margin-bottom: 30px;
 }

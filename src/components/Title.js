@@ -1,5 +1,5 @@
 import React from "react";
-import { img } from "./const";
+import { img } from "../../const";
 import './Title.css';
 const Title = () => (
     <div className="img-k">
